@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator APP MAIN</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="index.html"><h1 class="logo">calc</h1></a>
+            <div class="theme-switcher">
+                <p class="theme-switcher-p">THEME</p>
+                <div class="theme-switch">
+                    <div class="theme-numbers">
+                        <span>1</span> <span>2</span> <span>3</span>
+                    </div>
+                    <div class="theme-slider">
+                        <div class="slider-ball"></div>
+                    </div>                  
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="result">
+                <p class="previous-entry"></p>
+                <p class="result-output"></p>
+            </section>
+            <section class="input">
+                <button class="calc-button beige number-btn one" value="7">7</button>
+                <button class="calc-button beige number-btn" value="8">8</button>
+                <button class="calc-button beige number-btn" value="9">9</button>
+                <button class="calc-button white-p blue-bg delete-btn">DEL</button>
+
+                <button class="calc-button beige number-btn" value="4">4</button>
+                <button class="calc-button beige number-btn" value="5">5</button>
+                <button class="calc-button beige number-btn" value="6">6</button>
+                <button class="calc-button beige sign-btn" value="+">+</button>
+
+                <button class="calc-button beige number-btn" value="1">1</button>
+                <button class="calc-button beige number-btn" value="2">2</button>
+                <button class="calc-button beige number-btn" value="3">3</button>
+                <button class="calc-button beige sign-btn" value="-">-</button>
+
+                <button class="calc-button beige number-btn" value=".">.</button>
+                <button class="calc-button beige number-btn" value="0">0</button>
+                <button class="calc-button beige sign-btn" value="/">/</button>
+                <button class="calc-button beige sign-btn" value="*">x</button>
+
+                <button class=" span-two white-p blue-bg reset-btn">RESET</button>
+                <button class=" span-two white-p red-bg equal-btn" value="=">=</button>
+            </section>
+        </main>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
